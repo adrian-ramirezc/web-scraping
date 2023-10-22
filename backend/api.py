@@ -31,8 +31,8 @@ class Home(Resource):
         return {"This is home!": "home"}
 
 class ApiList(Resource):
-    def get(self, size_str : str):
-        size_str = int(size_str)
+    def get(self, size : str):
+        size_str = int(size)
         apis_url = "https://raw.githubusercontent.com/APIs-guru/openapi-directory/gh-pages/v2/list.json"
         apis_raw_data : dict = requests.get(apis_url).json()
         apis_info = [
