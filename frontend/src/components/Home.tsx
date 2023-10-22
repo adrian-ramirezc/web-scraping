@@ -81,8 +81,7 @@ export default function Home() {
             <GenericButton 
               title={"Retrieve"}
               handleClick = {handleButtonClick}
-              >
-              </GenericButton>
+            />
           </Grid>
           <Grid item xs={4}>
               <Typography>API Names</Typography>
