@@ -1,0 +1,19 @@
+.Header {
+    /* background-color: #282kc34; */
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /* color: wh    ite;   */
+}
+
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 50px;
+    background-color: transparent;
+
+}
